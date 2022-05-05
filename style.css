@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+    background-color: #1D3348;
+    text-align: center;
+    margin: 20px;  
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    max-width: 80vw;
+    margin: auto;
+}
+
+div{
+    border: solid 2px #3B65B8;
+    background-color: rgb(243, 240, 240);
+    color: black;
+    text-align: left;
+}
+
+.input{
+    margin: auto;
+    background-color: firebrick;
+    max-width: 60vw;
+
+}
