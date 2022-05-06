@@ -25,7 +25,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    background: #fff;
+    background: #1D3348;
 }
 
 .awesomplete > ul:empty {
@@ -80,13 +80,13 @@
 	}
 	
 	.awesomplete > ul > li:hover {
-		background: hsl(200, 40%, 80%);
+		background: hsl(252, 39%, 80%);
 		color: rgb(0, 0, 0);
 	}
 	
 	.awesomplete > ul > li[aria-selected="true"] {
-		background: hsl(256, 40%, 40%);
-		color: white;
+		background: hsl(0, 0%, 100%);
+		color: black;
 	}
 	
 		.awesomplete mark {
@@ -98,7 +98,7 @@
 		}
 		
 		.awesomplete li[aria-selected="true"] mark {
-			background: hsl(86, 100%, 21%);
-			color: inherit;
+			background: hsl(86, 100%, 21%); /*cor da letra selecionada*/
+			color: inherit; /*cor da letra*/
 		}
 /*# sourceMappingURL=awesomplete.css.map */
