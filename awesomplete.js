@@ -29,9 +29,9 @@ var _ = function (input, o) {
 	this.options = o = o || {};
 
 	configure(this, {
-		minChars: 2,
+		minChars: 1,
 		maxItems: 10,
-		autoFirst: false,
+		autoFirst: true,
 		data: _.DATA,
 		filter: _.FILTER_CONTAINS,
 		sort: o.sort === false ? false : _.SORT_BYLENGTH,
