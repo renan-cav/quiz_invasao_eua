@@ -4,10 +4,11 @@
     color: antiquewhite;
     background-color: #1D3348;
     text-align: center;
-    margin: 20px;  
+    margin: 20px;
+    justify-content: center; 
 }
 
-main{
+section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -16,15 +17,33 @@ main{
 }
 
 div{
+    margin: 1rem;
     border: solid 2px #3B65B8;
     background-color: rgb(243, 240, 240);
     color: black;
     text-align: left;
 }
 
-.input{
+.awesomplete{
     margin: auto;
-    background-color: firebrick;
-    max-width: 60vw;
-
+    background-color: white;
+    max-width: 20vw;
+    color:black
 }
+
+.desistir{
+    max-height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 60vw;
+}
+
+
