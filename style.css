@@ -24,11 +24,8 @@ div{
     text-align: left;
 }
 
-.awesomplete{
-    margin: auto;
-    background-color: white;
-    max-width: 20vw;
-    color:black
+.resultado > div{
+    display: none;
 }
 
 .desistir{
@@ -46,4 +43,6 @@ img{
     width: 60vw;
 }
 
-
+.confirma{
+    display: none;
+}
